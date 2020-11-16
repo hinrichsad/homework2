@@ -1,0 +1,10 @@
+.text-space{
+    letter-spacing: 15px;
+}
+.float-right{
+    float: right;
+}
+.sect-head{
+    text-align: center;
+    display: block;
+}
