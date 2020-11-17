@@ -13,35 +13,68 @@
 <body>
 
     <!--Navbar-->
-    <div>
+    <div class="row; width: 100%">
         <!--Button and name collapsed-->
+                <!--name section-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html">Andrew Hinrichs</a>
-
-            <div>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand text-space col-sm-6" href="./index.html">Andrew Hinrichs</a>
+                <!--button start-->
+            <div class="col-sm-6">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
                 <!--expanded nav bar with individual links-->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link bg-secondary text-white" href="./contact.html">Contacts</a>
-                    </li>
-                </ul>
-            </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home<span
+                                    class="sr-only"></span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link bg-secondary text-white" href="./contact.html">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </div>
 
-    <!--About me and photo placed in a card-->
+    <div class="row shadow-lg p-3 mb-5 bg-white rounded" style="margin-top: 5%;">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-8">
+            <div class="row">
+                <div class="text-space">
+                    <h1>
+                        Contact Information
+                    </h1>
+                </div>
+
+            </div>
+            <div class="row" style="margin-top: 5%; margin-bottom: 5%;">
+                <div class="col-sm-6 col-xs-12">
+                    <div>Name: <br> <input type="text" placeholder="Name" required></div>
+                    <div>Email: <br> <input type="text" placeholder="Email" required></div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    Message: <br> <textarea placeholder="Message"></textarea>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-sm-2"></div>
+
+    </div>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
