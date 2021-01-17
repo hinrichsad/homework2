@@ -13,3 +13,11 @@
     background-color: #f5f5f5;
     text-align: center;
 }
+.icon{
+    width: 15%;
+    height: 15%;
+}
+.card{
+    width: 60%; 
+    height: fit-content;
+}
